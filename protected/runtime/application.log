@@ -1,0 +1,1411 @@
+2015/08/24 09:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/index.php?r=gii
+---
+2015/08/24 09:46:43 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\front" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/yiitest/backend
+---
+2015/08/24 09:47:13 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\front" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/yiitest/backend
+---
+2015/08/24 09:47:18 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\front" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/yiitest/
+---
+2015/08/24 09:47:44 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\front" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/yiitest/backend/
+---
+2015/08/24 09:47:52 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\back" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#9 {main}
+REQUEST_URI=/yiitest/backend/
+---
+2015/08/24 09:48:01 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\front" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/yiitest/
+---
+2015/08/24 09:49:18 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\yiitest\protected\views\back" is not a valid directory.' in D:\xampp\htdocs\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#6 D:\xampp\htdocs\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#9 {main}
+REQUEST_URI=/yiitest/backend/gii
+---
+2015/08/26 12:35:39 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\project\yiitest\protected\views\front" is not a valid directory.' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\xampp\htdocs...')
+#1 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/project/yiitest/
+---
+2015/08/26 12:36:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/
+---
+2015/08/26 12:36:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/index.php
+---
+2015/08/26 12:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/index.php
+---
+2015/08/26 12:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/index.php
+---
+2015/08/26 12:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/index.php
+---
+2015/08/26 12:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/index.php
+---
+2015/08/26 12:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/
+---
+2015/08/26 12:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/site/index
+---
+2015/08/26 12:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('back')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/back
+---
+2015/08/26 12:39:45 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\project\yiitest\protected\views\back" is not a valid directory.' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\xampp\htdocs...')
+#1 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(561): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#6 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#9 {main}
+REQUEST_URI=/project/yiitest/backend
+---
+2015/08/26 12:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/
+---
+2015/08/26 12:41:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in D:\xampp\htdocs\project\yiitest\framework\gii\GiiModule.php:170
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/project/yiitest/gii
+---
+2015/08/26 12:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('giix')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/giix
+---
+2015/08/26 12:42:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in D:\xampp\htdocs\project\yiitest\framework\gii\GiiModule.php:170
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/project/yiitest/gii
+---
+2015/08/26 12:42:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in D:\xampp\htdocs\project\yiitest\framework\gii\GiiModule.php:170
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#6 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#9 {main}
+REQUEST_URI=/project/yiitest/gii
+---
+2015/08/26 12:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend
+---
+2015/08/26 12:44:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/
+---
+2015/08/26 12:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:52:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 12:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/gii/
+---
+2015/08/26 12:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/gii/
+---
+2015/08/26 12:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/gii/
+---
+2015/08/26 12:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('front')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\index.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd('front')
+#7 {main}
+REQUEST_URI=/project/yiitest/gii/
+---
+2015/08/26 12:56:16 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 12:57:30 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 12:59:36 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 12:59:37 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 12:59:37 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 12:59:37 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:01:46 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:02:02 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:02:58 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:04:03 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:04:03 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:04:04 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:04:04 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:04:04 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:04:36 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:05:19 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CActiveForm.php(349): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CActiveForm->run()
+#7 D:\xampp\htdocs\project\yiitest\framework\gii\views\default\login.php(10): DefaultController->endWidget()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(869): DefaultController->renderFile()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(782): DefaultController->renderPartial()
+#12 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(47): DefaultController->render()
+#13 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#17 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#21 unknown(0): WebApplicationEndBehavior->runEnd()
+#22 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#23 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#24 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/default/login
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:05:23 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:05:59 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\main.php(2): CWebApplication->__get()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#7 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(76): DefaultController->renderFile()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(214): CContentDecorator->run()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(308): DefaultController->endWidget()
+#13 D:\xampp\htdocs\project\yiitest\framework\gii\views\layouts\column1.php(7): DefaultController->endContent()
+#14 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(126): require()
+#15 D:\xampp\htdocs\project\yiitest\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#16 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(784): DefaultController->renderFile()
+#17 D:\xampp\htdocs\project\yiitest\framework\gii\controllers\DefaultController.php(17): DefaultController->render()
+#18 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): DefaultController->runAction()
+#21 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#22 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): DefaultController->run()
+#23 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#26 unknown(0): WebApplicationEndBehavior->runEnd()
+#27 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#28 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#29 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/gii/
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 13:06:35 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(230): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(351): CWebApplication->getClientScript()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(788): SiteController->processOutput()
+#7 D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php(7): SiteController->render()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#16 unknown(0): WebApplicationEndBehavior->runEnd()
+#17 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#18 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#19 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/
+in D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php (7)
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:08:41 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(230): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(351): CWebApplication->getClientScript()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(788): SiteController->processOutput()
+#7 D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php(7): SiteController->render()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#16 unknown(0): WebApplicationEndBehavior->runEnd()
+#17 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#18 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#19 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/
+in D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php (7)
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:08:42 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(230): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(351): CWebApplication->getClientScript()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(788): SiteController->processOutput()
+#7 D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php(7): SiteController->render()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#16 unknown(0): WebApplicationEndBehavior->runEnd()
+#17 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#18 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#19 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/
+in D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php (7)
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:10:23 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(230): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(351): CWebApplication->getClientScript()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(788): SiteController->processOutput()
+#7 D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php(7): SiteController->render()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#16 unknown(0): WebApplicationEndBehavior->runEnd()
+#17 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#18 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#19 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/
+in D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php (7)
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:12:56 [error] [php] include(ClientScript.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\project\yiitest\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(303): class_exists()
+#2 D:\xampp\htdocs\project\yiitest\framework\YiiBase.php(196): import()
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CModule.php(393): createComponent()
+#4 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(230): CWebApplication->getComponent()
+#5 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(351): CWebApplication->getClientScript()
+#6 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(788): SiteController->processOutput()
+#7 D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php(35): SiteController->render()
+#8 D:\xampp\htdocs\project\yiitest\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#16 unknown(0): WebApplicationEndBehavior->runEnd()
+#17 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array()
+#18 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->__call()
+#19 D:\xampp\htdocs\project\yiitest\index.php(13): CWebApplication->runEnd()
+REQUEST_URI=/project/yiitest/
+in D:\xampp\htdocs\project\yiitest\protected\controllers\front\SiteController.php (35)
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\index.php (13)
+2015/08/26 13:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 13:14:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii
+---
+2015/08/26 13:14:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/
+---
+2015/08/26 13:14:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/gii".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/gii')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/gii/
+---
+2015/08/26 15:54:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/test".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/test')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/test
+---
+2015/08/26 15:54:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend/test".' in D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/test')
+#1 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#4 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#6 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#7 {main}
+REQUEST_URI=/project/yiitest/backend/test
+---
+2015/08/26 15:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage".' in D:\xampp\htdocs\project\yiitest\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\project\yiitest\framework\web\CController.php(270): CController->missingAction('manage')
+#1 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 D:\xampp\htdocs\project\yiitest\framework\web\CWebApplication.php(141): CWebApplication->runController('test/manage')
+#3 D:\xampp\htdocs\project\yiitest\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('back')
+#6 D:\xampp\htdocs\project\yiitest\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\project\yiitest\backend.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\project\yiitest\backend.php(13): CWebApplication->runEnd('back')
+#9 {main}
+REQUEST_URI=/project/yiitest/backend/test/manage
+---
+2015/08/26 16:16:51 [warning] [application] Failed to set unsafe attribute "test2s" of "Test".
+in D:\xampp\htdocs\project\yiitest\protected\controllers\back\TestController.php (17)
+in D:\xampp\htdocs\project\yiitest\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\project\yiitest\backend.php (13)
